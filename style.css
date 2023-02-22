@@ -1,0 +1,22 @@
+
+.box {
+    margin: 30px auto;
+    border: 2px solid black;
+    overflow: hidden;
+    /* margin-top: 350px; */
+}
+
+p {
+    text-align: center;
+    animation: run 2s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes run {
+    from {
+        transform: translate(-100%);    
+    }
+    to {
+        transform: translate(100%);
+    }
+}
